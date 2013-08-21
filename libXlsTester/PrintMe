@@ -1,0 +1,38 @@
+xls.c:123: warning: format '%ld' expects type 'long int', but argument 2 has type 'DWORD'
+xls.c:123: warning: format '%ld' expects type 'long int', but argument 2 has type 'DWORD'
+xls.c:151: warning: format '%ld' expects type 'long int', but argument 2 has type 'DWORD'
+xls.c:151: warning: format '%ld' expects type 'long int', but argument 2 has type 'DWORD'
+xls.c:176: warning: format '%ld' expects type 'long int', but argument 2 has type 'DWORD'
+xls.c:176: warning: format '%ld' expects type 'long int', but argument 2 has type 'DWORD'
+xls.c:224: warning: format '%li' expects type 'long int', but argument 3 has type 'DWORD'
+xls.c:224: warning: format '%li' expects type 'long int', but argument 3 has type 'DWORD'
+xls.c:252: warning: format '% 4ld' expects type 'long int', but argument 2 has type 'DWORD'
+xls.c:252: warning: format '% 4ld' expects type 'long int', but argument 2 has type 'DWORD'
+xls.c:285: warning: format '%ld' expects type 'long int', but argument 2 has type 'DWORD'
+xls.c:285: warning: format '%ld' expects type 'long int', but argument 3 has type 'DWORD'
+xls.c:285: warning: format '%ld' expects type 'long int', but argument 4 has type 'DWORD'
+xls.c:285: warning: format '%ld' expects type 'long int', but argument 2 has type 'DWORD'
+xls.c:285: warning: format '%ld' expects type 'long int', but argument 3 has type 'DWORD'
+xls.c:285: warning: format '%ld' expects type 'long int', but argument 4 has type 'DWORD'
+xls.c: In function 'xls_addRow':
+xls.c:390: warning: overflow in implicit constant conversion
+xls.c: In function 'xls_parseWorkSheet':
+xls.c:1002: warning: format '%4.4x' expects type 'unsigned int', but argument 3 has type 'long int'
+xls.c:1002: warning: format '%d' expects type 'int', but argument 4 has type 'long int'
+xls.c:1002: warning: format '%4.4x' expects type 'unsigned int', but argument 3 has type 'long int'
+xls.c:1002: warning: format '%d' expects type 'int', but argument 4 has type 'long int'
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I.. -I../include -I../include -g -O2 -MT xls.lo -MD -MP -MF .deps/xls.Tpo -c xls.c -o xls.o >/dev/null 2>&1
+mv -f .deps/xls.Tpo .deps/xls.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc -std=gnu99  -g -O2 -version-info 1:0:0 -liconv   -o libxlsreader.la -rpath /usr/local/libxls/lib xlstool.lo ole.lo xls.lo  
+libtool: link: gcc -dynamiclib -Wl,-undefined -Wl,dynamic_lookup -o .libs/libxlsreader.1.dylib  .libs/xlstool.o .libs/ole.o .libs/xls.o   -liconv    -install_name  /usr/local/libxls/lib/libxlsreader.1.dylib -compatibility_version 2 -current_version 2.0 -Wl,-single_module
+libtool: link: (cd ".libs" && rm -f "libxlsreader.dylib" && ln -s "libxlsreader.1.dylib" "libxlsreader.dylib")
+libtool: link: (cd ".libs" && rm -f "libxlsreader.1.0.0.dylib" && ln -s "libxlsreader.1.dylib" "libxlsreader.1.0.0.dylib")
+libtool: link: ar cru .libs/libxlsreader.a  xlstool.o ole.o xls.o
+libtool: link: ranlib .libs/libxlsreader.a
+libtool: link: ( cd ".libs" && rm -f "libxlsreader.la" && ln -s "../libxlsreader.la" "libxlsreader.la" )
+gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I..  -I../include -I../include   -g -O2 -MT xls2csv.o -MD -MP -MF .deps/xls2csv.Tpo -c -o xls2csv.o xls2csv.c
+xls2csv.c: In function ‘main’:
+xls2csv.c:148: warning: format not a string literal and no format arguments
+xls2csv.c:148: warning: format not a string literal and no format arguments
+xls2csv.c:163: warning: format not a string literal and no format arguments
+xls2csv.c:163: warning: format not a string literal and no format arguments

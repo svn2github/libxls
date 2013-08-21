@@ -1,0 +1,191 @@
+
+  fooper.xls
+
+
+
+[Session started at 2008-02-11 20:24:36 -0500.]
+libxls : xls_open
+Header Size:   512 
+id[0]-id[1]:   E011CFD0-E11AB1A1 
+verminor:      3E 
+verdll:        3 
+Byte order:    FFFE 
+sect len:      9 (512)
+mini len:      6 (64)
+Fat sect.:     1 
+Dir Start:     25 
+Mini Cutoff:   4096 
+MiniFat Start: FFFFFFFE 
+Count MFat:    0 
+Dif start:     FFFFFFFE 
+Count Dif:     0 
+Fat Size:      512 (0x200) 
+1-seek 12800
+2-read 512
+Fatpos=19 lsector=200
+Fat val: 19[FFFFFFFE]
+=====
+ole2_read: rem=-1 size=1
+  while: fatpos=0xFFFFFFFE EOC=0xFFFFFFFE bufsize=512 pos=128
+=====
+----------------------------------------------
+name: Root Entry (size=22)
+bsize 22
+type 5
+flag 1
+left FFFFFFFF
+right FFFFFFFF
+child 2
+guid 0000-0000-0000-0000 0000-0000-0000-0000
+user flag 0000
+Start FFFFFFFE
+size 0000
+=====
+ole2_read: rem=-129 size=1
+  while: fatpos=0xFFFFFFFE EOC=0xFFFFFFFE bufsize=512 pos=256
+=====
+----------------------------------------------
+name: Book (size=10)
+bsize 10
+type 2
+flag 1
+left FFFFFFFF
+right FFFFFFFF
+child FFFFFFFF
+guid 0000-0000-0000-0000 0000-0000-0000-0000
+user flag 0000
+Start 0000
+size 1000
+=====
+ole2_read: rem=-257 size=1
+  while: fatpos=0xFFFFFFFE EOC=0xFFFFFFFE bufsize=512 pos=384
+=====
+----------------------------------------------
+name: SummaryInformation (size=40)
+bsize 40
+type 2
+flag 1
+left 1
+right 3
+child FFFFFFFF
+guid 0000-0000-0000-0000 0000-0000-0000-0000
+user flag 0000
+Start 0008
+size 1000
+=====
+ole2_read: rem=-385 size=1
+  while: fatpos=0xFFFFFFFE EOC=0xFFFFFFFE bufsize=512 pos=512
+=====
+----------------------------------------------
+name: DocumentSummaryInformation (size=56)
+bsize 56
+type 2
+flag 1
+left FFFFFFFF
+right FFFFFFFF
+child FFFFFFFF
+guid 0000-0000-0000-0000 0000-0000-0000-0000
+user flag 0000
+Start 0010
+size 1000
+Fatpos=0 lsector=200
+Fat val: 0[1]
+libxls : xls_ParseWorkBook
+=====
+ole2_read: rem=4096 size=1
+  bytes=4 (rem=4096 size*count)=4
+  while: fatpos=0x1 EOC=0xFFFFFFFE bufsize=512 pos=4
+=====
+=====
+ole2_read: rem=4092 size=1
+  bytes=8 (rem=4092 size*count)=8
+  while: fatpos=0x1 EOC=0xFFFFFFFE bufsize=512 pos=12
+=====
+----------------------------------------------
+libxls : BOF
+     ID: 0809h BOF-BIFF5/7/8 (Beginning of File)
+   Size: 8
+version: BIFF5
+   type: 05
+=====
+ole2_read: rem=4084 size=1
+  bytes=4 (rem=4084 size*count)=4
+  while: fatpos=0x1 EOC=0xFFFFFFFE bufsize=512 pos=16
+=====
+=====
+ole2_read: rem=4080 size=1
+  bytes=18 (rem=4080 size*count)=18
+  while: fatpos=0x1 EOC=0xFFFFFFFE bufsize=512 pos=34
+=====
+----------------------------------------------
+
+3sheetBIFF5
+
+[Session started at 2008-02-11 19:54:50 -0500.]
+libxls : xls_open
+Header Size:   512 
+id[0]-id[1]:   E011CFD0-E11AB1A1 
+verminor:      3E 
+verdll:        3 
+Byte order:    FFFE 
+sect len:      9 (512)
+mini len:      6 (64)
+Fat sect.:     1 
+Dir Start:     1 
+Mini Cutoff:   4096 
+MiniFat Start: 2 
+Count MFat:    1 
+Dif start:     FFFFFFFE 
+Count Dif:     0 
+Fat Size:      512 (0x200) 
+1-seek 512
+2-read 8396800
+Fatpos=1 lsector=200
+Fat val: 1[A]
+
+Fat Size:      9 (0x9) 
+1-seek 512
+2-read 512
+Fatpos=1 lsector=200
+Fat val: 1[A]
+=====
+ole2_read: rem=-1 olest->size=1 - subfunc=0
+  bytes=128 (rem=-1 size*count=128)
+  test: (bytes-rcount)=128 (olest->bufsize-olest->pos)=512
+  while: if(fatpos=0xA==EOC=0xFFFFFFFE) && (bufsize=512 <= pos=128)
+  eof=0 (rcount=128 != bytes=128)
+  rcount=128 EOF=0
+=====
+
+     MallocGuardEdges             If set, add a guard page before and after each large block.
+
+     MallocDoNotProtectPrelude    If set, do not add a guard page before large blocks, even if the MallocGuardEdges environment variable is set.
+
+     MallocDoNotProtectPostlude   If set, do not add a guard page after large blocks, even if the MallocGuardEdges environment variable is set.
+
+     MallocStackLogging           If set, record all stacks, so that tools like leaks can be used.
+
+     MallocStackLoggingNoCompact  If set, record all stacks in a manner that is compatible with the malloc_history program.
+
+     MallocPreScribble            If set, fill memory that has been allocated with 0xaa bytes.  This increases the likelihood that a program making assumptions about the contents of
+                                  freshly allocated memory will fail.
+
+     MallocScribble               If set, fill memory that has been deallocated with 0x55 bytes.  This increases the likelihood that a program will fail due to accessing memory that
+                                  is no longer allocated.
+
+     MallocCheckHeapStart <s>     If set, specifies the number of allocations <s> to wait before begining periodic heap checks every <n> as specified by MallocCheckHeapEach.  If
+                                  MallocCheckHeapStart is set but MallocCheckHeapEach is not specified, the default check repetition is 1000.
+
+     MallocCheckHeapEach <n>      If set, run a consistency check on the heap every <n> operations.  MallocCheckHeapEach is only meaningful if MallocCheckHeapStart is also set.
+
+     MallocCheckHeapSleep <t>     Sets the number of seconds to sleep (waiting for a debugger to attach) when MallocCheckHeapStart is set and a heap corruption is detected.  The
+                                  default is 100 seconds.  Setting this to zero means not to sleep at all.  Setting this to a negative number means to sleep (for the positive number
+                                  of seconds) only the very first time a heap corruption is detected.
+
+     MallocCheckHeapAbort <b>     When MallocCheckHeapStart is set and this is set to a non-zero value, causes abort(3) to be called if a heap corruption is detected, instead of any
+                                  sleeping.
+
+     MallocErrorAbort             If set, causes abort(3) to be called if an error was encountered in malloc(3) or free(3) , such as a calling free(3) on a pointer previously freed.
+
+     MallocHelp                   If set, print a list of environment variables that are paid heed to by the allocation-related functions, along with short descriptions.  The list
+                                  should correspond to this documentation.

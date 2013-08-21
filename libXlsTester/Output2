@@ -1,0 +1,712 @@
+libXlsTester(50192) malloc: protecting edges
+Open file: /Volumes/Data/Users/dhoerl/Desktop/Nwind.xls
+libxls : xls_open
+ole2_open: /Volumes/Data/Users/dhoerl/Desktop/Nwind.xls
+libxls : END OF CHAIN
+
+libxls : xls_parseWorkBook
+----------------------------------------------
+libxls : BOF
+   ID: 0809h BOF-BIFF5/7/8 (Beginning of File)
+   Size: 16
+version: BIFF8
+   type: 05
+----------------------------------------------
+libxls : BOF
+   ID: 00E1h INTERFACEHDR (Beginning of User Interface Records)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x00E1
+----------------------------------------------
+libxls : BOF
+   ID: 00C1h MMS (ADDMENU/DELMENU Record Group Count)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x00C1
+----------------------------------------------
+libxls : BOF
+   ID: 00E2h INTERFACEEND (End of User Interface Records)
+   Size: 0
+Not Processed in parseWoorkBook():  BOF=0x00E2
+----------------------------------------------
+libxls : BOF
+   ID: 005Ch WRITEACCESS (Write Access User Name)
+   Size: 112
+Not Processed in parseWoorkBook():  BOF=0x005C
+----------------------------------------------
+libxls : BOF
+   ID: 0042h CODEPAGE (Default Code Page)
+   Size: 2
+codepage=4b0
+----------------------------------------------
+libxls : BOF
+   ID: 0161h DSF (Double Stream File)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x0161
+----------------------------------------------
+libxls : BOF
+   ID: 013Dh TABID (Sheet Tab Index Array)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x013D
+----------------------------------------------
+libxls : BOF
+   ID: 009Ch FNGROUPCOUNT (Built-in Function Group Count)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x009C
+----------------------------------------------
+libxls : BOF
+   ID: 0019h ?WINDOWPROTECT ( (biffview guessed))
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x0019
+----------------------------------------------
+libxls : BOF
+   ID: 0012h PROTECT (Protection Flag)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x0012
+----------------------------------------------
+libxls : BOF
+   ID: 0013h PASSWORD (Protection Password)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x0013
+----------------------------------------------
+libxls : BOF
+   ID: 01AFh PROT4REV (Shared Workbook Protection Flag)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x01AF
+----------------------------------------------
+libxls : BOF
+   ID: 01BCh PROT4REVPASS (Shared Workbook Protection Password)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x01BC
+----------------------------------------------
+libxls : BOF
+   ID: 003Dh WINDOW1 (Window Information)
+   Size: 18
+WINDOW1: xWn    : 0
+yWn    : 0
+dxWn   : 807
+dyWn   : 511
+grbit  : 56
+itabCur: 0
+itabFi : 0
+ctabSel: 1
+wTabRat: 600
+----------------------------------------------
+libxls : BOF
+   ID: 0040h BACKUP (Save Backup Version of the File)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x0040
+----------------------------------------------
+libxls : BOF
+   ID: 008Dh HIDEOBJ (Object Display Options)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x008D
+----------------------------------------------
+libxls : BOF
+   ID: 0022h DATEMODE (1904 Date System)
+   Size: 2
+   mode: 0x0
+----------------------------------------------
+libxls : BOF
+   ID: 000Eh PRECISION (Precision)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x000E
+----------------------------------------------
+libxls : BOF
+   ID: 01B7h REFRESHALL (Refresh Flag)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x01B7
+----------------------------------------------
+libxls : BOF
+   ID: 00DAh BOOKBOOL (Workbook Option Flag)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x00DA
+----------------------------------------------
+libxls : BOF
+   ID: 0031h FONT (Font Description)
+   Size: 26
+libxls : xls_addFont
+ height: 200
+   flag: 0x0
+  color: 0x7fff
+ weight: 400
+escapem: 0x0
+underln: 0x0
+ family: 0x0
+charset: 0x0
+   name: Arial
+----------------------------------------------
+libxls : BOF
+   ID: 0031h FONT (Font Description)
+   Size: 26
+libxls : xls_addFont
+ height: 200
+   flag: 0x0
+  color: 0x7fff
+ weight: 400
+escapem: 0x0
+underln: 0x0
+ family: 0x0
+charset: 0x0
+   name: Arial
+----------------------------------------------
+libxls : BOF
+   ID: 0031h FONT (Font Description)
+   Size: 26
+libxls : xls_addFont
+ height: 200
+   flag: 0x0
+  color: 0x7fff
+ weight: 400
+escapem: 0x0
+underln: 0x0
+ family: 0x0
+charset: 0x0
+   name: Arial
+----------------------------------------------
+libxls : BOF
+   ID: 0031h FONT (Font Description)
+   Size: 26
+libxls : xls_addFont
+ height: 200
+   flag: 0x0
+  color: 0x7fff
+ weight: 400
+escapem: 0x0
+underln: 0x0
+ family: 0x0
+charset: 0x0
+   name: Arial
+----------------------------------------------
+libxls : BOF
+   ID: 0031h FONT (Font Description)
+   Size: 26
+libxls : xls_addFont
+ height: 200
+   flag: 0x0
+  color: 0x7fff
+ weight: 400
+escapem: 0x0
+underln: 0x0
+ family: 0x0
+charset: 0x0
+   name: Arial
+----------------------------------------------
+libxls : BOF
+   ID: 0031h FONT (Font Description)
+   Size: 26
+libxls : xls_addFont
+ height: 200
+   flag: 0x0
+  color: 0x3c
+ weight: 700
+escapem: 0x0
+underln: 0x0
+ family: 0x0
+charset: 0x0
+   name: Arial
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 0
+       Font: 0
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0x0
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 1
+       Font: 1
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 2
+       Font: 1
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 3
+       Font: 2
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 4
+       Font: 2
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 5
+       Font: 0
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 6
+       Font: 0
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 7
+       Font: 0
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 8
+       Font: 0
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 9
+       Font: 0
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 10
+       Font: 0
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 11
+       Font: 0
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 12
+       Font: 0
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 13
+       Font: 0
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 14
+       Font: 0
+     Format: 0
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 15
+       Font: 0
+     Format: 0
+       Type: 0x1
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0x0
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 16
+       Font: 1
+     Format: 44
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xf8
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 17
+       Font: 1
+     Format: 42
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xf8
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 18
+       Font: 1
+     Format: 9
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xf8
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 19
+       Font: 1
+     Format: 43
+       Type: 0xfff5
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xf8
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 20
+       Font: 1
+     Format: 41
+       Type: 0xfff5
+      Align: 0x0
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0x0
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 21
+       Font: 6
+     Format: 0
+       Type: 0x1
+      Align: 0x10
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x4002040
+GroundColor: 0x20af
+----------------------------------------------
+libxls : BOF
+   ID: 00E0h XF (Extended Format)
+   Size: 20
+libxls : xls_addXF
+      Index: 22
+       Font: 0
+     Format: 14
+       Type: 0x1
+      Align: 0x20
+   Rotation: 0x0
+      Ident: 0x0
+   UsedAttr: 0xfc
+  LineStyle: 0x20400000
+  Linecolor: 0x2040
+GroundColor: 0x20c0
+----------------------------------------------
+libxls : BOF
+   ID: 0293h STYLE (Style Information)
+   Size: 4
+    idx: 0x10
+  ident: 0x4
+  level: 0xff
+----------------------------------------------
+libxls : BOF
+   ID: 0293h STYLE (Style Information)
+   Size: 4
+    idx: 0x11
+  ident: 0x7
+  level: 0xff
+----------------------------------------------
+libxls : BOF
+   ID: 0293h STYLE (Style Information)
+   Size: 4
+    idx: 0x0
+  ident: 0x0
+  level: 0xff
+----------------------------------------------
+libxls : BOF
+   ID: 0293h STYLE (Style Information)
+   Size: 4
+    idx: 0x12
+  ident: 0x5
+  level: 0xff
+----------------------------------------------
+libxls : BOF
+   ID: 0293h STYLE (Style Information)
+   Size: 4
+    idx: 0x13
+  ident: 0x3
+  level: 0xff
+----------------------------------------------
+libxls : BOF
+   ID: 0293h STYLE (Style Information)
+   Size: 4
+    idx: 0x14
+  ident: 0x6
+  level: 0xff
+----------------------------------------------
+libxls : BOF
+   ID: 0160h USESELFS (Natural Language Formulas Flag)
+   Size: 2
+Not Processed in parseWoorkBook():  BOF=0x0160
+----------------------------------------------
+libxls : BOF
+   ID: 0085h BOUNDSHEET (Sheet Information)
+   Size: 34
+xls_addSheet[0x0]
+85: Worksheet or dialog sheet
+visible: 0
+    Pos: 50Fh
+   type: 0000h
+   name: Order Details
+----------------------------------------------
+libxls : BOF
+   ID: 008Ch COUNTRY (Default Country and WIN.INI Country)
+   Size: 4
+Not Processed in parseWoorkBook():  BOF=0x008C
+----------------------------------------------
+libxls : BOF
+   ID: 01C1h Unknown ()
+   Size: 8
+Not Processed in parseWoorkBook():  BOF=0x01C1
+----------------------------------------------
+libxls : BOF
+   ID: 00FCh SST (Shared String Table)
+   Size: 179
+libxls : xls_addSST
+xls_appendSST 171
+ln=7
+String16SST: OrderID(7)
+String    0: OrderID<end>
+ln=9
+String16SST: ProductID(9)
+String    1: ProductID<end>
+ln=9
+String16SST: UnitPrice(9)
+String    2: UnitPrice<end>
+ln=8
+String16SST: Quantity(8)
+String    3: Quantity<end>
+ln=8
+String16SST: Discount(8)
+String    4: Discount<end>
+ln=13
+String16SST: Trial Version(13)
+String    5: Trial Version<end>
+ln=21
+String16SST: Not all rows exported(21)
+String    6: Not all rows exported<end>
+----------------------------------------------
+libxls : BOF
+   ID: 000Ah EOF (End of File)
+   Size: 0
+Sheet[0] (Order Details) pos=1295
+libxls : xls_getWorkSheet
+libxls : xls_parseWorkSheet
+libxls : xls_preparseWorkSheet
+libxls : xls_makeTable
+UNKNOWN: 809 at pos=1295 size=16
+UNKNOWN: d at pos=1335 size=2
+UNKNOWN: c at pos=1341 size=2
+UNKNOWN: f at pos=1347 size=2
+UNKNOWN: 11 at pos=1353 size=2
+UNKNOWN: 10 at pos=1359 size=8
+UNKNOWN: 5f at pos=1371 size=2
+UNKNOWN: 2a at pos=1377 size=2
+UNKNOWN: 2b at pos=1383 size=2
+UNKNOWN: 82 at pos=1389 size=2
+UNKNOWN: 80 at pos=1395 size=8
+UNKNOWN: 81 at pos=1415 size=2
+UNKNOWN: 14 at pos=1421 size=0
+UNKNOWN: 15 at pos=1425 size=0
+UNKNOWN: 83 at pos=1429 size=2
+UNKNOWN: 84 at pos=1435 size=2
+UNKNOWN: a1 at pos=1441 size=34
+UNKNOWN: 200 at pos=1485 size=14
+libxls : xls_addCell
+  -----------
+     ID: 00FDh LABELSST (Cell Value, String Constant/SST)
+   Cell: A:1  [0:0]
+     xf: 15
+ double: 0.000000
+    int: 0
+    str: OrderID
+libxls : xls_addCell
+  -----------
+     ID: 00FDh LABELSST (Cell Value, String Constant/SST)
+   Cell: \265:28258  [26996:28257]
+     xf: 15
+ double: 178878191391848517554092960380110644502099372664663769901303421112855461712877847076170387414742169164924201109885358634209397367978701520690335408705587906609152.000000
+    int: 1700143212
+    str: ProductID
+libxls : xls_addCell
+(lldb) 
