@@ -23,7 +23,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * Copyright 2008-2012 David Hoerl
+ * Copyright 2008-2014 David Hoerl
  *
  */
 
@@ -36,8 +36,7 @@
 
 #include <libxls/xls.h>
 
-extern void xls_close_summaryInfo(xlsSummaryInfo *pSI);
-extern xlsSummaryInfo *xls_summaryInfo(xlsWorkBook* pWB);
+#include "xlsformula.h"
 
 int main(int argc, char *argv[])
 {
@@ -49,6 +48,7 @@ int main(int argc, char *argv[])
 
 int debug = 0;
 xls(debug);	// set debug to 0
+xls_set_formula_hander(dump_formula);
 
 	if(argc != 2) {
 		printf("Need file arg\n");
@@ -59,7 +59,7 @@ xls(debug);	// set debug to 0
 //system("ls -l David.xls");
 
 	printf("Open file: %s\n", argv[1]);
-printf("HOWDIE\n");
+
     pWB=xls_open(argv[1],"UTF-8");	// man iconv_open for list of possible values - not sure which ones Excel uses	// ASCII
 
 #if 0
@@ -78,7 +78,6 @@ printf("company=%s\n", si->company);
 xls_close_summaryInfo(si);
 #endif
 	//exit(0) ;
-printf("HOWDIE\n");
     if (pWB!=NULL)
     {
 		assert(pWB->sheets.count);
@@ -92,7 +91,7 @@ printf("HOWDIE\n");
 			printf("Count of rows: %i\n",pWS->rows.lastrow + 1);
 			printf("Max col: %i\n",pWS->rows.lastcol);
 
-#if 1
+#if 0
 			for (t=0;t<=pWS->rows.lastrow;t++)
 			{
 				row=&pWS->rows.row[t];

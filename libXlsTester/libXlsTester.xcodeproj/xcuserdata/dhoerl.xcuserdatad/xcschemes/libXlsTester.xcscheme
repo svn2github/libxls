@@ -59,12 +59,36 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/tmp/PHOTO.xls"
+            argument = "/tmp/xxx.xls"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "/tmp/xls.xls"
+            argument = "/Volumes/Data/Users/dhoerl/Public/Workbook1.xls"
             isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/Volumes/Data/Users/dhoerl/Public/xls.xls"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/Volumes/Data/Users/dhoerl/Public/formula.xls"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/Volumes/Data/Users/dhoerl/Public/xxx.xls"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/tmp/yyy.xls"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/tmp/array_example_1.xls"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/tmp/PHOTO.xls"
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "fooper.xls"

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE26331E1881CF800022FB26 /* xlsformula.c in Sources */ = {isa = PBXBuildFile; fileRef = DE26331C1881CF800022FB26 /* xlsformula.c */; };
 		DE63B80C1737EDAF00CCFACC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DE63B80B1737EDAF00CCFACC /* main.c */; };
 		DE63B80D1737EDDF00CCFACC /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = DE63B8041737ED2800CCFACC /* getopt.c */; };
 		DE63B80E1737EDE400CCFACC /* ole.c in Sources */ = {isa = PBXBuildFile; fileRef = DE63B8071737ED2800CCFACC /* ole.c */; };
@@ -58,18 +59,20 @@
 		DE2068E60F644D9500BBBD50 /* xlscsv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xlscsv; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2069080F644F1E00BBBD50 /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2069200F644FEA00BBBD50 /* Test2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test2; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE63B7EF1737EC7900CCFACC /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = configure; path = ../libxls/configure; sourceTree = "<group>"; };
+		DE26331C1881CF800022FB26 /* xlsformula.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xlsformula.c; sourceTree = "<group>"; };
+		DE26331D1881CF800022FB26 /* xlsformula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlsformula.h; sourceTree = "<group>"; };
+		DE63B7EF1737EC7900CCFACC /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; lineEnding = 0; name = configure; path = ../libxls/configure; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.sh; };
 		DE63B7F01737EC7900CCFACC /* configure.in */ = {isa = PBXFileReference; lastKnownFileType = text; name = configure.in; path = ../libxls/configure.in; sourceTree = "<group>"; };
 		DE63B7F21737ECC100CCFACC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DE63B7F31737ECC100CCFACC /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		DE63B7F41737ECC100CCFACC /* XlsReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = XlsReader.cpp; sourceTree = "<group>"; };
-		DE63B7F51737ECC100CCFACC /* XlsReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XlsReader.h; sourceTree = "<group>"; };
+		DE63B7F51737ECC100CCFACC /* XlsReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = XlsReader.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		DE63B7F81737ECFA00CCFACC /* brdb.c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = brdb.c.h; sourceTree = "<group>"; };
 		DE63B7F91737ECFA00CCFACC /* brdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = brdb.h; sourceTree = "<group>"; };
 		DE63B7FA1737ECFA00CCFACC /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
 		DE63B7FB1737ECFA00CCFACC /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 		DE63B7FC1737ECFA00CCFACC /* ole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ole.h; sourceTree = "<group>"; };
-		DE63B7FD1737ECFA00CCFACC /* xls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xls.h; sourceTree = "<group>"; };
+		DE63B7FD1737ECFA00CCFACC /* xls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = xls.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		DE63B7FE1737ECFA00CCFACC /* xlsstruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xlsstruct.h; sourceTree = "<group>"; };
 		DE63B7FF1737ECFA00CCFACC /* xlstool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xlstool.h; sourceTree = "<group>"; };
 		DE63B8001737ECFA00CCFACC /* xlstypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xlstypes.h; sourceTree = "<group>"; };
@@ -78,13 +81,13 @@
 		DE63B8041737ED2800CCFACC /* getopt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
 		DE63B8051737ED2800CCFACC /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
 		DE63B8061737ED2800CCFACC /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
-		DE63B8071737ED2800CCFACC /* ole.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ole.c; sourceTree = "<group>"; };
-		DE63B8081737ED2800CCFACC /* xls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xls.c; sourceTree = "<group>"; };
-		DE63B8091737ED2800CCFACC /* xls2csv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xls2csv.c; sourceTree = "<group>"; };
-		DE63B80A1737ED2800CCFACC /* xlstool.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xlstool.c; sourceTree = "<group>"; };
+		DE63B8071737ED2800CCFACC /* ole.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = ole.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		DE63B8081737ED2800CCFACC /* xls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = xls.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		DE63B8091737ED2800CCFACC /* xls2csv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = xls2csv.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		DE63B80A1737ED2800CCFACC /* xlstool.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = xlstool.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
 		DE63B80B1737EDAF00CCFACC /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		DE63B8111737EE4D00CCFACC /* endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endian.h; sourceTree = "<group>"; };
-		DE63B8121737EE6200CCFACC /* endian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = endian.c; sourceTree = "<group>"; };
+		DE63B8111737EE4D00CCFACC /* endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = endian.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DE63B8121737EE6200CCFACC /* endian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = endian.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
 		DE63B81917382DC000CCFACC /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
 		DE63B81A17382DC000CCFACC /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
 		DE63B81B173835AC00CCFACC /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
@@ -161,6 +164,7 @@
 				DE63B7F01737EC7900CCFACC /* configure.in */,
 				DEB61A6B0F5B8CFF0031D01E /* config.h */,
 				DE63B7F11737ECC100CCFACC /* cplusplus */,
+				DE26331B1881CF800022FB26 /* formulas */,
 				DE63B7F61737ECFA00CCFACC /* include */,
 				DED4376514B4A3AB00EDDCB6 /* XlsReader */,
 				DE63B8031737ED2800CCFACC /* src */,
@@ -181,6 +185,16 @@
 				DEA0C23214B7245600BD129B /* XlsReader */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DE26331B1881CF800022FB26 /* formulas */ = {
+			isa = PBXGroup;
+			children = (
+				DE26331D1881CF800022FB26 /* xlsformula.h */,
+				DE26331C1881CF800022FB26 /* xlsformula.c */,
+			);
+			name = formulas;
+			path = ../libxls/formulas;
 			sourceTree = "<group>";
 		};
 		DE63B7F11737ECC100CCFACC /* cplusplus */ = {
@@ -400,6 +414,7 @@
 				DE63B80E1737EDE400CCFACC /* ole.c in Sources */,
 				DE63B80F1737EDE900CCFACC /* xls.c in Sources */,
 				DE63B8101737EDF300CCFACC /* xlstool.c in Sources */,
+				DE26331E1881CF800022FB26 /* xlsformula.c in Sources */,
 				DE63B8131737EE6200CCFACC /* endian.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
