@@ -68,7 +68,7 @@
 #define LT_OBJDIR ".libs/"
 
 /* Disables Assertions */
-#define NDEBUG 1
+// #define NDEBUG 1
 
 /* Name of package */
 #define PACKAGE "libxls"

@@ -82,7 +82,9 @@ xls_close_summaryInfo(si);
     {
 		assert(pWB->sheets.count);
        for (i=0;i<pWB->sheets.count;i++) {
-            printf("Sheet[%i] (%s) pos=%i\n",i, pWB->sheets.sheet[i].name, pWB->sheets.sheet[i].filepos);
+			printf("\n---------------------------------------------\n");
+            printf("  Sheet[%i] (%s) pos=%i\n",i, pWB->sheets.sheet[i].name, pWB->sheets.sheet[i].filepos);
+			printf("---------------------------------------------\n");
 
 			pWS=xls_getWorkSheet(pWB,i);
 
@@ -127,6 +129,7 @@ xls_close_summaryInfo(si);
     } else {
 		printf("pWB == NULL\n");
 	}
+printf("Bye\n");
     return 0;
 }
 

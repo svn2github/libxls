@@ -19,8 +19,13 @@
 		DE63B8161737EE6200CCFACC /* endian.c in Sources */ = {isa = PBXBuildFile; fileRef = DE63B8121737EE6200CCFACC /* endian.c */; };
 		DE63B8171737EE6200CCFACC /* endian.c in Sources */ = {isa = PBXBuildFile; fileRef = DE63B8121737EE6200CCFACC /* endian.c */; };
 		DE63B8181737EE6200CCFACC /* endian.c in Sources */ = {isa = PBXBuildFile; fileRef = DE63B8121737EE6200CCFACC /* endian.c */; };
+		DE6F64E318845875002ABCE6 /* xls2csv.c in Sources */ = {isa = PBXBuildFile; fileRef = DE63B8091737ED2800CCFACC /* xls2csv.c */; };
+		DE6F64E41884587E002ABCE6 /* XlsReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE63B7F41737ECC100CCFACC /* XlsReader.cpp */; };
+		DE6F64E51884593D002ABCE6 /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = DE63B8041737ED2800CCFACC /* getopt.c */; };
+		DE6F64E618845942002ABCE6 /* ole.c in Sources */ = {isa = PBXBuildFile; fileRef = DE63B8071737ED2800CCFACC /* ole.c */; };
+		DE6F64E718845947002ABCE6 /* xls.c in Sources */ = {isa = PBXBuildFile; fileRef = DE63B8081737ED2800CCFACC /* xls.c */; };
+		DE6F64E81884594F002ABCE6 /* xlstool.c in Sources */ = {isa = PBXBuildFile; fileRef = DE63B80A1737ED2800CCFACC /* xlstool.c */; };
 		DEA0C22D14B7235700BD129B /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA0C22C14B7235700BD129B /* libiconv.dylib */; };
-		DEA0C23614B7245600BD129B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEA0C23514B7245600BD129B /* main.cpp */; };
 		DEA0C23E14B7250F00BD129B /* libxlsreader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA0C23D14B7250F00BD129B /* libxlsreader.a */; };
 /* End PBXBuildFile section */
 
@@ -163,8 +168,8 @@
 				DE63B7EF1737EC7900CCFACC /* configure */,
 				DE63B7F01737EC7900CCFACC /* configure.in */,
 				DEB61A6B0F5B8CFF0031D01E /* config.h */,
-				DE63B7F11737ECC100CCFACC /* cplusplus */,
 				DE26331B1881CF800022FB26 /* formulas */,
+				DE63B7F11737ECC100CCFACC /* cplusplus */,
 				DE63B7F61737ECFA00CCFACC /* include */,
 				DED4376514B4A3AB00EDDCB6 /* XlsReader */,
 				DE63B8031737ED2800CCFACC /* src */,
@@ -381,7 +386,7 @@
 		08FB7793FE84155DC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0510;
 			};
 			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "libXlsTester" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -423,7 +428,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6F64E718845947002ABCE6 /* xls.c in Sources */,
 				DE63B8141737EE6200CCFACC /* endian.c in Sources */,
+				DE6F64E51884593D002ABCE6 /* getopt.c in Sources */,
+				DE6F64E618845942002ABCE6 /* ole.c in Sources */,
+				DE6F64E318845875002ABCE6 /* xls2csv.c in Sources */,
+				DE6F64E81884594F002ABCE6 /* xlstool.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +457,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA0C23614B7245600BD129B /* main.cpp in Sources */,
+				DE6F64E41884587E002ABCE6 /* XlsReader.cpp in Sources */,
 				DE63B8181737EE6200CCFACC /* endian.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,12 +500,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "./**";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-liconv";
 				SDKROOT = macosx;
 			};
@@ -505,7 +515,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -519,7 +528,7 @@
 		DE2068E80F644D9600BBBD50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
@@ -532,7 +541,7 @@
 		DE2068E90F644D9600BBBD50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
@@ -598,7 +607,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -624,7 +632,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -643,7 +650,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -678,7 +684,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
