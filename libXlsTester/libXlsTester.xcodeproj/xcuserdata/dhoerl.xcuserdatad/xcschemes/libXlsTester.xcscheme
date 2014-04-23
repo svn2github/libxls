@@ -59,12 +59,16 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Volumes/Data/Users/dhoerl/Public/notes.xls"
+            argument = "/Volumes/Data/Users/dhoerl/Public/image.xls"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/Volumes/Data/Users/dhoerl/Public/formulas-GOOD.xls"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "/Volumes/Data/Users/dhoerl/Public/MULRK.xls"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "/Volumes/Data/Users/dhoerl/Public/npict3.xls"
