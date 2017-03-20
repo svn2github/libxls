@@ -480,6 +480,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "libxls/**";
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = libXlsTester;
 				ZERO_LINK = YES;
@@ -491,6 +492,7 @@
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = "libxls/**";
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = libXlsTester;
 			};
@@ -533,6 +535,10 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					"libxls/**",
+					"./**",
+				);
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = xlscsv;
 			};
@@ -545,6 +551,10 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = (
+					"libxls/**",
+					"./**",
+				);
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = xlscsv;
 				ZERO_LINK = NO;

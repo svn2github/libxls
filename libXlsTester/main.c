@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
     WORD t,tt;
     unsigned int i;
 
-int debug = 0;
+int debug = 10;
 xls(debug);	// set debug to 0
 xls_set_formula_hander(dump_formula);
 
@@ -62,7 +62,7 @@ xls_set_formula_hander(dump_formula);
 
     pWB=xls_open(argv[1],"UTF-8");	// man iconv_open for list of possible values - not sure which ones Excel uses	// ASCII
 
-#if 0
+#if 1
 xlsSummaryInfo *si = xls_summaryInfo(pWB);
 printf("title=%s\n", si->title);
 printf("subject=%s\n", si->subject);
@@ -81,7 +81,7 @@ xls_close_summaryInfo(si);
     if (pWB!=NULL)
     {
 		assert(pWB->sheets.count);
-       for (i=0;i<pWB->sheets.count;i++) {
+		for (i=0;i<pWB->sheets.count;i++) {
 			printf("\n---------------------------------------------\n");
             printf("  Sheet[%i] (%s) pos=%i\n",i, pWB->sheets.sheet[i].name, pWB->sheets.sheet[i].filepos);
 			printf("---------------------------------------------\n");
@@ -93,7 +93,7 @@ xls_close_summaryInfo(si);
 			printf("Count of rows: %i\n",pWS->rows.lastrow + 1);
 			printf("Max col: %i\n",pWS->rows.lastcol);
 
-#if 0
+#if 1
 			for (t=0;t<=pWS->rows.lastrow;t++)
 			{
 				row=&pWS->rows.row[t];

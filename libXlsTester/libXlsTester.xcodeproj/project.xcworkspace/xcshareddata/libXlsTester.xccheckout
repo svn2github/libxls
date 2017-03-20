@@ -10,40 +10,34 @@
 	<string>libXlsTester</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>33ED604A-5BD7-429F-A62B-B50E3C7CFB53</key>
+		<key>982eeb1d-6a45-41fa-94c8-6813189e3c3d++505</key>
 		<string>svn+ssh://svn.code.sf.net/p/libxls/code/trunk</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>libXlsTester/libXlsTester.xcodeproj/project.xcworkspace</string>
+	<string>libXlsTester/libXlsTester.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>33ED604A-5BD7-429F-A62B-B50E3C7CFB53</key>
+		<key>982eeb1d-6a45-41fa-94c8-6813189e3c3d++505</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectRepositoryRootDictionary</key>
 	<dict>
-		<key>33ED604A-5BD7-429F-A62B-B50E3C7CFB53</key>
+		<key>982eeb1d-6a45-41fa-94c8-6813189e3c3d++505</key>
 		<string>svn+ssh://svn.code.sf.net/p/libxls/code</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>svn+ssh://svn.code.sf.net/p/libxls/code/trunk/libXlsTester/libXlsTester.xcodeproj</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>33ED604A-5BD7-429F-A62B-B50E3C7CFB53</string>
+	<string>982eeb1d-6a45-41fa-94c8-6813189e3c3d++505</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
-			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
-			<string>branches</string>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.subversion</string>
-			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
-			<string>tags</string>
-			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
-			<string>trunk</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>33ED604A-5BD7-429F-A62B-B50E3C7CFB53</string>
+			<string>982eeb1d-6a45-41fa-94c8-6813189e3c3d++505</string>
 			<key>IDESourceControlWCCName</key>
 			<string>libxls</string>
 		</dict>
