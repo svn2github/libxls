@@ -113,8 +113,8 @@ xls_close_summaryInfo(si);
 					  if(cell->l == 0) { // its a number
 						  printf("FORMULA: CELL NUMBER: %g %s\n", cell->d, cell->str);
 					  } else {
-						  if(!strcmp(cell->str, "bool"))  printf("Bool=%d", (int)cell->d);
-						  if(!strcmp(cell->str, "error")) printf("ERROR\n");
+						  if(!strcmp((const char *)cell->str, "bool"))  printf("Bool=%d", (int)cell->d);
+						  if(!strcmp((const char *)cell->str, "error")) printf("ERROR\n");
 						  else printf("FORMULA STRING: %s\n", cell->str);
 					  }
 					}

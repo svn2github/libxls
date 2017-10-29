@@ -63,12 +63,16 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/tmp/foo.xls"
+            argument = "/tmp/32833.xls"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "/Volumes/Data/Users/dhoerl/Public/Thresh.xls"
+            argument = "/Volumes/Data/Users/dhoerl/Downloads/Thresh_OK_32832+1byExcel.xls"
             isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/Volumes/Data/Users/dhoerl/Public/Thresh.xls"
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "/Volumes/Data/Users/dhoerl/Public/Corrupt1.xls"

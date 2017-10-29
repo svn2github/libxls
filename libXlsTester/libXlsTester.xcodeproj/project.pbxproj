@@ -67,7 +67,6 @@
 		DE26331C1881CF800022FB26 /* xlsformula.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xlsformula.c; sourceTree = "<group>"; };
 		DE26331D1881CF800022FB26 /* xlsformula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlsformula.h; sourceTree = "<group>"; };
 		DE63B7EF1737EC7900CCFACC /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; lineEnding = 0; name = configure; path = ../libxls/configure; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.sh; };
-		DE63B7F01737EC7900CCFACC /* configure.in */ = {isa = PBXFileReference; lastKnownFileType = text; name = configure.in; path = ../libxls/configure.in; sourceTree = "<group>"; };
 		DE63B7F21737ECC100CCFACC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DE63B7F31737ECC100CCFACC /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		DE63B7F41737ECC100CCFACC /* XlsReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = XlsReader.cpp; sourceTree = "<group>"; };
@@ -166,7 +165,6 @@
 				DE63B81B173835AC00CCFACC /* Makefile.in */,
 				DE63B80B1737EDAF00CCFACC /* main.c */,
 				DE63B7EF1737EC7900CCFACC /* configure */,
-				DE63B7F01737EC7900CCFACC /* configure.in */,
 				DEB61A6B0F5B8CFF0031D01E /* config.h */,
 				DE26331B1881CF800022FB26 /* formulas */,
 				DE63B7F11737ECC100CCFACC /* cplusplus */,
